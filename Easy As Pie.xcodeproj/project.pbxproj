@@ -197,6 +197,7 @@
 				FA4EE1541E6ECC5200E8A6DA /* ArticleViewController.m */,
 			);
 			name = Article;
+			path = Article;
 			sourceTree = "<group>";
 		};
 		FA4EE1561E6F438900E8A6DA /* Login */ = {
@@ -208,19 +209,21 @@
 				FA4EE1671E71E47400E8A6DA /* LoginViewController.m */,
 			);
 			name = Login;
+			path = Login;
 			sourceTree = "<group>";
 		};
 		FA4EE15A1E6F448700E8A6DA /* Register */ = {
 			isa = PBXGroup;
 			children = (
+				FAEAF1881E7D56350009FBA7 /* HomeContainerViewController.h */,
+				FAEAF1891E7D56350009FBA7 /* HomeContainerViewController.m */,
 				FA4EE15B1E6F449300E8A6DA /* RegisterViewController.h */,
 				FA4EE15C1E6F449300E8A6DA /* RegisterViewController.m */,
 				FAEAF1851E7D545E0009FBA7 /* WorkContainerViewController.h */,
 				FAEAF1861E7D545E0009FBA7 /* WorkContainerViewController.m */,
-				FAEAF1881E7D56350009FBA7 /* HomeContainerViewController.h */,
-				FAEAF1891E7D56350009FBA7 /* HomeContainerViewController.m */,
 			);
 			name = Register;
+			path = Register;
 			sourceTree = "<group>";
 		};
 		FA4EE15E1E6F4C5200E8A6DA /* Navigation */ = {
@@ -230,17 +233,19 @@
 				FA4EE1601E6F4C7100E8A6DA /* CustomNavigationController.m */,
 			);
 			name = Navigation;
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 		FA4EE1621E71E08E00E8A6DA /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				FA4EE1631E71E0A400E8A6DA /* UIHelper.h */,
-				FA4EE1641E71E0A400E8A6DA /* UIHelper.m */,
 				FA185F061F44F4F80059E5DC /* ApplicationHelper.h */,
 				FA185F071F44F4F80059E5DC /* ApplicationHelper.m */,
+				FA4EE1631E71E0A400E8A6DA /* UIHelper.h */,
+				FA4EE1641E71E0A400E8A6DA /* UIHelper.m */,
 			);
 			name = Utils;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		FA4EFE211EAC043800509FDB /* collectioview cell */ = {
@@ -251,15 +256,16 @@
 				FA4EFE271EACD3E600509FDB /* SliderCollectionViewCell.xib */,
 			);
 			name = "collectioview cell";
+			path = "collectioview cell";
 			sourceTree = "<group>";
 		};
 		FA5184EE1E604BCD005BDA74 = {
 			isa = PBXGroup;
 			children = (
 				FA5184F91E604BCD005BDA74 /* Easy As Pie */,
-				FA5184F81E604BCD005BDA74 /* Products */,
-				0739F19FC303D990517B7ECB /* Pods */,
 				D3B99B601E65B05D7A150D84 /* Frameworks */,
+				0739F19FC303D990517B7ECB /* Pods */,
+				FA5184F81E604BCD005BDA74 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -274,21 +280,21 @@
 		FA5184F91E604BCD005BDA74 /* Easy As Pie */ = {
 			isa = PBXGroup;
 			children = (
+				FA5185111E604E54005BDA74 /* Constants */,
 				FA6127321E75D2F100C422CE /* Custom classes */,
-				FA4EE1621E71E08E00E8A6DA /* Utils */,
+				FA5185131E604F2E005BDA74 /* Model */,
 				FA4EE15E1E6F4C5200E8A6DA /* Navigation */,
 				FA5185151E604F6A005BDA74 /* Network */,
+				FA5184FA1E604BCD005BDA74 /* Supporting Files */,
+				FA4EE1621E71E08E00E8A6DA /* Utils */,
 				FA5185141E604F3A005BDA74 /* VCs */,
-				FA5185131E604F2E005BDA74 /* Model */,
-				FA5185111E604E54005BDA74 /* Constants */,
 				FA5184FD1E604BCD005BDA74 /* AppDelegate.h */,
 				FA5184FE1E604BCD005BDA74 /* AppDelegate.m */,
-				FA5185031E604BCD005BDA74 /* Main.storyboard */,
 				FA5185061E604BCD005BDA74 /* Assets.xcassets */,
-				FA5185081E604BCD005BDA74 /* LaunchScreen.storyboard */,
-				FA51850B1E604BCD005BDA74 /* Info.plist */,
 				FAEAF19F1E7DCEBC0009FBA7 /* GoogleService-Info.plist */,
-				FA5184FA1E604BCD005BDA74 /* Supporting Files */,
+				FA51850B1E604BCD005BDA74 /* Info.plist */,
+				FA5185081E604BCD005BDA74 /* LaunchScreen.storyboard */,
+				FA5185031E604BCD005BDA74 /* Main.storyboard */,
 			);
 			path = "Easy As Pie";
 			sourceTree = "<group>";
@@ -296,11 +302,12 @@
 		FA5184FA1E604BCD005BDA74 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FA7E38911EA3D7DF0025067D /* barbutton item bagde */,
 				FADBA81F1E86F2CF007119FE /* Fonts */,
+				FA7E38911EA3D7DF0025067D /* barbutton item bagde */,
 				FA5184FB1E604BCD005BDA74 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		FA5185111E604E54005BDA74 /* Constants */ = {
@@ -309,6 +316,7 @@
 				FA5185121E604E77005BDA74 /* Constants.h */,
 			);
 			name = Constants;
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		FA5185131E604F2E005BDA74 /* Model */ = {
@@ -316,34 +324,37 @@
 			children = (
 			);
 			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		FA5185141E604F3A005BDA74 /* VCs */ = {
 			isa = PBXGroup;
 			children = (
 				FAEAF1971E7D99850009FBA7 /* Address */,
-				FAEAF18F1E7D89F20009FBA7 /* SideMenu */,
-				FA4EE15A1E6F448700E8A6DA /* Register */,
-				FA4EE1561E6F438900E8A6DA /* Login */,
 				FA4EE1521E6ECC3900E8A6DA /* Article */,
-				FA5185291E66093C005BDA74 /* Products */,
 				FA51851D1E64AD07005BDA74 /* Checkout */,
 				FA5185191E64ABD1005BDA74 /* Home */,
+				FA4EE1561E6F438900E8A6DA /* Login */,
+				FA5185291E66093C005BDA74 /* Products */,
+				FA4EE15A1E6F448700E8A6DA /* Register */,
+				FAEAF18F1E7D89F20009FBA7 /* SideMenu */,
 			);
 			name = VCs;
+			path = VCs;
 			sourceTree = "<group>";
 		};
 		FA5185151E604F6A005BDA74 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				FA5185161E604FD8005BDA74 /* ShopifyManager.h */,
-				FA5185171E604FD8005BDA74 /* ShopifyManager.m */,
 				FA185F001F44E8FB0059E5DC /* NetworkSessionManager.h */,
 				FA185F011F44E8FB0059E5DC /* NetworkSessionManager.m */,
 				FA185F031F44F1B10059E5DC /* ServiceLogic.h */,
 				FA185F041F44F1B10059E5DC /* ServiceLogic.m */,
+				FA5185161E604FD8005BDA74 /* ShopifyManager.h */,
+				FA5185171E604FD8005BDA74 /* ShopifyManager.m */,
 			);
 			name = Network;
+			path = Network;
 			sourceTree = "<group>";
 		};
 		FA5185191E64ABD1005BDA74 /* Home */ = {
@@ -355,6 +366,7 @@
 				FA51851B1E64ABE9005BDA74 /* HomeViewController.m */,
 			);
 			name = Home;
+			path = Home;
 			sourceTree = "<group>";
 		};
 		FA51851D1E64AD07005BDA74 /* Checkout */ = {
@@ -367,6 +379,7 @@
 				FA185F0A1F4864CD0059E5DC /* CheckoutsuccessViewController.m */,
 			);
 			name = Checkout;
+			path = Checkout;
 			sourceTree = "<group>";
 		};
 		FA5185211E64C80D005BDA74 /* menu cell */ = {
@@ -376,6 +389,7 @@
 				FA5185231E64C826005BDA74 /* MenuTableViewCell.m */,
 			);
 			name = "menu cell";
+			path = "menu cell";
 			sourceTree = "<group>";
 		};
 		FA5185251E6601AD005BDA74 /* Checkout cells */ = {
@@ -387,6 +401,7 @@
 				FA5185321E6C3EFF005BDA74 /* CheckoutTableViewCell.m */,
 			);
 			name = "Checkout cells";
+			path = "Checkout cells";
 			sourceTree = "<group>";
 		};
 		FA5185291E66093C005BDA74 /* Products */ = {
@@ -397,6 +412,7 @@
 				FA51852B1E660950005BDA74 /* ProductsViewController.m */,
 			);
 			name = Products;
+			path = Products;
 			sourceTree = "<group>";
 		};
 		FA51852D1E660ACE005BDA74 /* products cell */ = {
@@ -406,6 +422,7 @@
 				FA51852F1E660AE9005BDA74 /* ProductsTableViewCell.m */,
 			);
 			name = "products cell";
+			path = "products cell";
 			sourceTree = "<group>";
 		};
 		FA6127321E75D2F100C422CE /* Custom classes */ = {
@@ -417,6 +434,7 @@
 				FAFF20231E7838CD00CDC6C5 /* CBuyCheckout.m */,
 			);
 			name = "Custom classes";
+			path = "Custom classes";
 			sourceTree = "<group>";
 		};
 		FA7E38911EA3D7DF0025067D /* barbutton item bagde */ = {
@@ -428,6 +446,7 @@
 				FA7E38951EA3D7F10025067D /* UIButton+Badge.m */,
 			);
 			name = "barbutton item bagde";
+			path = "barbutton item bagde";
 			sourceTree = "<group>";
 		};
 		FADBA81F1E86F2CF007119FE /* Fonts */ = {
@@ -436,6 +455,7 @@
 				FADBA8211E86F346007119FE /* Lato2OFL */,
 			);
 			name = Fonts;
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		FADBA8211E86F346007119FE /* Lato2OFL */ = {
@@ -473,6 +493,7 @@
 				FAEAF1911E7D8A020009FBA7 /* SideMenuViewController.m */,
 			);
 			name = SideMenu;
+			path = SideMenu;
 			sourceTree = "<group>";
 		};
 		FAEAF1931E7D8A9F0009FBA7 /* Custom cell */ = {
@@ -482,6 +503,7 @@
 				FAEAF1951E7D8ABB0009FBA7 /* SideMenuTableViewCell.m */,
 			);
 			name = "Custom cell";
+			path = "Custom cell";
 			sourceTree = "<group>";
 		};
 		FAEAF1971E7D99850009FBA7 /* Address */ = {
@@ -492,6 +514,7 @@
 				FAEAF19D1E7D99CB0009FBA7 /* AddressesViewController.m */,
 			);
 			name = Address;
+			path = Address;
 			sourceTree = "<group>";
 		};
 		FAEAF1981E7D999E0009FBA7 /* Custom cell */ = {
@@ -501,6 +524,7 @@
 				FAEAF19A1E7D99B90009FBA7 /* AddressesTableViewCell.m */,
 			);
 			name = "Custom cell";
+			path = "Custom cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -705,6 +729,7 @@
 				FA5185041E604BCD005BDA74 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		FA5185081E604BCD005BDA74 /* LaunchScreen.storyboard */ = {
@@ -713,6 +738,7 @@
 				FA5185091E604BCD005BDA74 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
